@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>NeonCode IDE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #0f2027, #000);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      text-align: center;
+      max-width: 700px;
+      padding: 40px;
+      border-radius: 20px;
+      background: rgba(0,0,0,0.6);
+      box-shadow: 0 0 40px rgba(0,255,255,0.25);
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #00f5ff;
+      text-shadow: 0 0 15px #00f5ff;
+    }
+    p {
+      font-size: 1.1rem;
+      opacity: 0.85;
+      margin-bottom: 30px;
+    }
+    .features {
+      text-align: left;
+      margin: 30px auto;
+      max-width: 400px;
+    }
+    .features li {
+      margin: 10px 0;
+      list-style: "⚡ ";
+    }
+    .buttons {
+      margin-top: 40px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 14px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 14px;
+      transition: 0.3s;
+      box-shadow: 0 0 20px rgba(0,255,255,0.4);
+      cursor: pointer;
+    }
+    .download {
+      background: linear-gradient(135deg, #00f5ff, #0066ff);
+      color: black;
+    }
+    .github {
+      background: linear-gradient(135deg, #8a2be2, #ff00ff);
+      color: white;
+    }
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 35px rgba(0,255,255,0.9);
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>NeonCode IDE</h1>
+    <p>Modern • Hafif • Güçlü<br>Python geliştiricileri için neon hız ⚡</p>
+    <ul class="features">
+      <li>Ultra hızlı Python çalıştırma</li>
+      <li>Neon temalı modern arayüz</li>
+      <li>Terminal & paket yönetimi</li>
+      <li>Düşük RAM kullanımı</li>
+    </ul>
+    <div class="buttons">
+      <!-- İNDİR -->
+      <a class="btn download"
+         href="https://github.com/neoncoder-cyber/neoncodepythonide/releases"
+         target="_blank">
+        ⬇ İndir
+      </a>
+      <!-- GITHUB -->
+      <a class="btn github"
+         href="https://github.com/neoncoder-cyber/neoncodepythonide.github.io"
+         target="_blank">
+        🧑‍💻 GitHub’da İncele
+      </a>
+    </div>
+    <footer>
+      Built with ⚡ by Ömer Kaptan
+    </footer>
+  </div>
+</body>
+</html>
